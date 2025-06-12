@@ -1,0 +1,3 @@
+Output File                            Name                 Type      FSH File          Lines
+Patient-ExamplePatient-Turn.json       ExamplePatient-Turn  Instance  example.fsh       3 - 29
+StructureDefinition-turn-patient.json  TurnPatient          Profile   turn-patient.fsh  5 - 20

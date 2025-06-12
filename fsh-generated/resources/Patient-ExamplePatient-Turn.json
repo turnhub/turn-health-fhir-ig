@@ -1,0 +1,50 @@
+{
+  "resourceType": "Patient",
+  "id": "ExamplePatient-Turn",
+  "meta": {
+    "profile": [
+      "http://health.turn.io/fhir/patient/StructureDefinition/turn-patient"
+    ]
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "https://www.gov.za/south-african-id-number",
+      "type": {
+        "coding": [
+          {
+            "code": "NNZAF",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+          }
+        ]
+      },
+      "value": "8501155001088"
+    }
+  ],
+  "name": [
+    {
+      "family": "Lucy",
+      "given": [
+        "Mukombo"
+      ]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1992-11-19",
+  "telecom": [
+    {
+      "system": "mobile",
+      "value": "+263772123456"
+    }
+  ],
+  "address": [
+    {
+      "line": [
+        "45 Rivonia Road"
+      ],
+      "city": "Johannesburg",
+      "postalCode": "2128",
+      "country": "ZA"
+    }
+  ]
+}

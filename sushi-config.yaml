@@ -1,0 +1,13 @@
+# sushi-config.yaml
+id: fhir.turn.health.patient
+canonical: http://health.turn.io/fhir/patient
+version: 0.1.0
+name: TurnHealthPatient
+title: "Turn Health Patient IPS IG"
+description: "A patient profile for Turn Health based on the International Patient Summary (IPS)."
+status: draft
+fhirVersion: 4.0.1 # This is required for SUSHI
+copyrightYear: 2025+ # This is required for SUSHI
+releaseLabel: stu1 # This is required for SUSHI
+dependencies:
+  hl7.fhir.uv.ips: 1.1.0 # Using v1.1.0 as a stable alternative

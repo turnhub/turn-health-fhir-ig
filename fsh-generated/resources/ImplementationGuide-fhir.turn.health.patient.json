@@ -1,0 +1,64 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "fhir.turn.health.patient",
+  "url": "http://health.turn.io/fhir/patient/ImplementationGuide/fhir.turn.health.patient",
+  "version": "0.1.0",
+  "name": "TurnHealthPatient",
+  "title": "Turn Health Patient IPS IG",
+  "status": "draft",
+  "description": "A patient profile for Turn Health based on the International Patient Summary (IPS).",
+  "packageId": "fhir.turn.health.patient",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.fhir.uv.ips",
+      "version": "1.1.0",
+      "uri": "http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips",
+      "id": "hl7_fhir_uv_ips"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "Patient/ExamplePatient-Turn"
+        },
+        "name": "Example Turn Patient",
+        "description": "An example patient conforming to the MyStandardPatient profile.",
+        "exampleCanonical": "http://health.turn.io/fhir/patient/StructureDefinition/turn-patient"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/turn-patient"
+        },
+        "name": "Turn Health Patient Profile",
+        "description": "A minimal and standard patient profile for global use, based on IPS.",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2025+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "stu1"
+      }
+    ]
+  }
+}

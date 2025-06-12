@@ -1,0 +1,24 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "turn-patient",
+  "url": "http://health.turn.io/fhir/patient/StructureDefinition/turn-patient",
+  "name": "TurnPatient",
+  "title": "Turn Health Patient Profile",
+  "status": "draft",
+  "description": "A minimal and standard patient profile for global use, based on IPS.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient.communication",
+        "path": "Patient.communication",
+        "mustSupport": true
+      }
+    ]
+  }
+}

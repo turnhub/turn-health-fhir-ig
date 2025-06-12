@@ -1,0 +1,18 @@
+[
+  {
+    "outputFile": "Patient-ExamplePatient-Turn.json",
+    "fshName": "ExamplePatient-Turn",
+    "fshType": "Instance",
+    "fshFile": "example.fsh",
+    "startLine": 3,
+    "endLine": 29
+  },
+  {
+    "outputFile": "StructureDefinition-turn-patient.json",
+    "fshName": "TurnPatient",
+    "fshType": "Profile",
+    "fshFile": "turn-patient.fsh",
+    "startLine": 5,
+    "endLine": 20
+  }
+]

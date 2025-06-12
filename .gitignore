@@ -1,0 +1,13 @@
+# FHIR IG Publisher Cache and Temp Files
+input-cache/
+temp/
+package-list.json
+
+# Don't commit the standard output folder
+output/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
