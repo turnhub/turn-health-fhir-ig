@@ -1,0 +1,19 @@
+{
+  "url" : "http://health.turn.io/fhir/patient/ImplementationGuide/fhir.turn.health.patient",
+  "name" : "TurnHealthPatient",
+  "title" : "Turn Health Patient IPS IG",
+  "description" : "A patient profile for Turn Health based on the International Patient Summary (IPS).",
+  "status" : "draft",
+  "package-id" : "fhir.turn.health.patient",
+  "ig-ver" : "0.1.0",
+  "date" : "Thu, 12 Jun, 2025 16:00:32 -0400",
+  "dateISO8601" : "2025-06-12T16:00:32-04:00",
+  "errs" : 2,
+  "warnings" : 5,
+  "hints" : 1,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1523169528
+}

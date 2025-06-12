@@ -1,0 +1,38 @@
+{
+  "resourceType" : "Patient",
+  "id" : "ExamplePatient-Turn",
+  "meta" : {
+    "profile" : ["http://health.turn.io/fhir/patient/StructureDefinition/turn-patient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient ExamplePatient-Turn</b></p><a name=\"ExamplePatient-Turn\"> </a><a name=\"hcExamplePatient-Turn\"> </a><a name=\"ExamplePatient-Turn-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-turn-patient.html\">Turn Health Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Mukombo Lucy  Female, DoB: 1992-11-19 ( National Identifier for South Africa\u00a0(use:\u00a0official,\u00a0))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li/><li>45 Rivonia Road Johannesburg 2128 ZA </li></ul></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code" : "NNZAF"
+      }]
+    },
+    "system" : "https://www.gov.za/south-african-id-number",
+    "value" : "8501155001088"
+  }],
+  "name" : [{
+    "family" : "Lucy",
+    "given" : ["Mukombo"]
+  }],
+  "telecom" : [{
+    "system" : "mobile",
+    "value" : "+263772123456"
+  }],
+  "gender" : "female",
+  "birthDate" : "1992-11-19",
+  "address" : [{
+    "line" : ["45 Rivonia Road"],
+    "city" : "Johannesburg",
+    "postalCode" : "2128",
+    "country" : "ZA"
+  }]
+}

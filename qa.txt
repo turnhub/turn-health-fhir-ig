@@ -1,0 +1,23 @@
+TurnHealthPatient : Validation Results
+=========================================
+
+err = 2, warn = 5, info = 1
+IG Publisher Version: 2.0.6
+Generated Thu Jun 12 16:00:50 EDT 2025. FHIR version 4.0.1 for fhir.turn.health.patient#0.1.0 (canonical = http://health.turn.io/fhir/patient)
+ Build Errors : 1 / 4 / 0
+ /Volumes/Biliba/github/turn-health-fhir-ig/fsh-generated/resources/ImplementationGuide-fhir.turn.health.patient : 0 / 0 / 1
+ /Volumes/Biliba/github/turn-health-fhir-ig/fsh-generated/resources/Patient-ExamplePatient-Turn : 1 / 1 / 1
+ /Volumes/Biliba/github/turn-health-fhir-ig/fsh-generated/resources/StructureDefinition-turn-patient : 0 / 0 / 2
+</table>
+== n/a ==
+ERROR: package.tgz: Error converting pacakge to R4B: Error processing example/Patient-ExamplePatient-Turn.json: Unknown ContactPointSystem code 'mobile'
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-fhir.turn.health.patient.json ==
+== fsh-generated/resources/Patient-ExamplePatient-Turn.json ==
+WARNING: Patient/ExamplePatient-Turn: Patient.identifier[0].system: No definition could be found for URL value 'https://www.gov.za/south-african-id-number'
+ERROR: Patient/ExamplePatient-Turn: Patient.telecom[0].system: The value provided ('mobile') was not found in the value set 'ContactPointSystem' (http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'mobile' in the ValueSet 'http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1'; The provided code '#mobile' was not found in the value set 'http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1')
+== fsh-generated/resources/StructureDefinition-turn-patient.json ==
+INFORMATION: StructureDefinition/turn-patient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated

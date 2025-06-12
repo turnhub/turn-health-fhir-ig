@@ -1,0 +1,16 @@
+[
+  {
+    "id" : "fhir.turn.health.patient",
+    "type" : "ImplementationGuide",
+    "url" : "http://health.turn.io/fhir/patient/ImplementationGuide/fhir.turn.health.patient",
+    "version" : "0.1.0",
+    "name" : "TurnHealthPatient"
+  },
+  {
+    "id" : "turn-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://health.turn.io/fhir/patient/StructureDefinition/turn-patient",
+    "version" : "0.1.0",
+    "name" : "TurnPatient"
+  }
+]

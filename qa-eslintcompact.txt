@@ -1,0 +1,14 @@
+TurnHealthPatient
+=========================================
+
+Generic: line 0, col 0, Error - Error converting pacakge to R4B: Error processing example/Patient-ExamplePatient-Turn.json: Unknown ContactPointSystem code 'mobile' (EXCEPTION)
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/Volumes/Biliba/github/turn-health-fhir-ig/fsh-generated/resources/Patient-ExamplePatient-Turn.json: line 12, col 61, Warning - No definition could be found for URL value 'https://www.gov.za/south-african-id-number' (INVALID)
+/Volumes/Biliba/github/turn-health-fhir-ig/fsh-generated/resources/Patient-ExamplePatient-Turn.json: line 36, col 25, Error - The value provided ('mobile') was not found in the value set 'ContactPointSystem' (http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'mobile' in the ValueSet 'http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1'; The provided code '#mobile' was not found in the value set 'http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1') (CODEINVALID)
+/Volumes/Biliba/github/turn-health-fhir-ig/fsh-generated/resources/StructureDefinition-turn-patient.json: line 1, col 17216, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated (BUSINESSRULE)
+
+err = 2, warn = 5, info = 1
+IG Publisher Version: 2.0.6
